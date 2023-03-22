@@ -47,19 +47,19 @@ function App() {
               onClick={() => setActive(!active)}>About</a>
             </li>
             <li className="nav__item">
-              <a href="/" className="nav__link"
+              <a href="/NiluferOkay_Thesis.pdf" target="_blank" className="nav__link"
               onClick={() => setActive(!active)}>Thesis</a>
             </li>
             <li className="nav__item">
-              <a href="/" className="nav__link"
+              <a href="/NiluferOkay_CV.pdf" target="_blank" className="nav__link"
               onClick={() => setActive(!active)}>CV</a>
             </li>
             <li className="nav__item__icon">
-              <a href="/" className="nav__link__icon">
+              <a href="https://www.linkedin.com/in/niluferokay/" target="_blank" className="nav__link__icon">
                 <i class="ri-linkedin-box-fill"></i></a>
-                <a href="/" className="nav__link__icon">
+                <a href="https://github.com/niluferokay" target="_blank" className="nav__link__icon">
                 <i class="ri-github-fill"></i></a>
-                <a href="/" className="nav__link__icon">
+                <a href="mailto:niluferokay@gmail.com" className="nav__link__icon">
               <i class="ri-mail-fill"></i></a>
             </li>
           </ul>

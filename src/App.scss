@@ -46,7 +46,6 @@ img {
 .header{
   position: fixed;
   width: 100%;
-  // height: 100%;
   background-color: var(--back-color);
   top:0;
   left: 0;
@@ -195,6 +194,17 @@ img {
   .nav__link__icon {
     margin-right: 1.5rem;
   }
+
+  .home{
+    margin-inline: 0.7rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    }
+
+    .photo{
+      padding-right: 0;
+    }
 }
 
 @media screen and (min-width: 767px){
