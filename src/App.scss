@@ -1,7 +1,12 @@
 /*=============== VARIABLES CSS ===============*/
 :root {
   --header-height: 6rem;
-
+  line-height: 1.5;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
   /*========== Colors ==========*/
   --text-color: #2c2420;
   --hover-color: rgb(50, 121, 184);
@@ -103,7 +108,9 @@ img {
 
 .nav__item__icon{
   margin-right: -1.5rem;
+  margin-top: 0.2rem;
 }
+
 .nav__item{
   margin-top: 0.7rem;
 }
@@ -142,12 +149,11 @@ img {
 
 .home__description{
   text-align: left;
-  padding-top: 40px;
+  padding-top: 45px;
   padding-bottom: 20px;
-  font-size: 1.1rem;
+  font-size: 1rem;
   letter-spacing: 0.25px;
   font-weight: var(--text-weight);
-  line-height: 1.4;
   margin-bottom: 4rem;
   border-bottom: 0.1px solid lightgray;
 }
