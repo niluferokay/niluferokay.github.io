@@ -1,6 +1,6 @@
 /*=============== VARIABLES CSS ===============*/
 :root {
-  --header-height: 5rem;
+  --header-height: 4.5rem;
   line-height: 1.5;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -181,6 +181,9 @@ img {
 
 /*For medium devices */
 @media screen and (max-width: 767px){
+
+  :root {--header-height: 5.5rem;}
+
   .nav__menu{
     display:none;
   }
@@ -220,6 +223,7 @@ img {
 
     .photo{
       padding-right: 0;
+      margin-top: 20px;
     }
 
     .home__description{
