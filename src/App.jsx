@@ -19,9 +19,6 @@ function App() {
             <li className="nav__item">
               <a href="/" className="nav__link">About</a>
             </li>
-            {/* <li className="nav__item">
-              <a href="/NiluferOkay_Thesis.pdf" target="_blank" className="nav__link">Thesis</a>
-            </li> */}
             <li className="nav__item">
               <a href="/NiluferOkay_CV.pdf" target="_blank" className="nav__link">CV</a>
             </li>
@@ -46,10 +43,6 @@ function App() {
               <a href="/" className="nav__link"
               onClick={() => setActive(!active)}>About</a>
             </li>
-            {/* <li className="nav__item">
-              <a href="/NiluferOkay_Thesis.pdf" target="_blank" className="nav__link"
-              onClick={() => setActive(!active)}>Thesis</a>
-            </li> */}
             <li className="nav__item">
               <a href="/NiluferOkay_CV.pdf" target="_blank" className="nav__link"
               onClick={() => setActive(!active)}>CV</a>
