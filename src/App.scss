@@ -8,7 +8,8 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
   /*========== Colors ==========*/
-  --text-color: #2c2420;
+  --text-color: rgb(45, 44, 44);
+  --nav-color: #2c2420;
   --hover-color: rgb(50, 121, 184);
   --back-color: #ffffff;
   /*========== Font and typography ==========*/
@@ -72,7 +73,7 @@ img {
 .nav__toggle,
 .nav__close{
   display: flex;
-  color: var(--text-color);
+  color: var(--nav-color);
 }
 
 .nav__toggle{
@@ -117,7 +118,7 @@ img {
 
 .nav__link,
 .nav__link__icon{
-  color: var(--text-color);
+  color: var(--nav-color);
   font-weight: var(--title-weight);
   font-size: 1.15rem;
   transition: var(--transition-color);
@@ -140,7 +141,7 @@ img {
 
 .photo{
   float: left;
-  padding: 25px 35px 5px 0;
+  padding: 25px 40px 10px 0;
 }
 
 .home__img{
@@ -149,10 +150,11 @@ img {
 }
 
 .home__description{
+  color: var(--text-color);
   text-align: left;
-  padding-top: 32px;
+  padding-top: 36px;
   padding-bottom: 10px;
-  font-size: 0.9rem;
+  font-size: 14px;
   letter-spacing: 0.25px;
   font-weight: var(--text-weight);
   border-bottom: 0.1px solid lightgray;
