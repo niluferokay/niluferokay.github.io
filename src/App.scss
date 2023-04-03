@@ -137,11 +137,12 @@ img {
 
 .home {
   border-top: 0.1px solid lightgray;
+  padding-bottom: 60px;
 }
 
 .photo{
   float: left;
-  padding: 25px 40px 10px 0;
+  padding: 25px 28px 5px 0;
 }
 
 .home__img{
@@ -152,7 +153,7 @@ img {
 .home__description{
   color: var(--text-color);
   text-align: left;
-  padding-top: 36px;
+  padding-top: 32px;
   padding-bottom: 10px;
   font-size: 14px;
   letter-spacing: 0.25px;
@@ -161,7 +162,7 @@ img {
 }
 
 .home__para{
-  margin-bottom: 9px;
+  margin-bottom: 10px;
 }
 
 .para__link{
