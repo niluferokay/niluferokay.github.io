@@ -84,8 +84,8 @@ img {
 
 .nav__close{
   position: absolute;
-  top: 1.5rem;
-  right: 2.5rem;
+  top: 1.3rem;
+  right: 1.5rem;
   font-size: 2rem;
   cursor: pointer;
 }
@@ -94,7 +94,6 @@ img {
   font-style: var(--text-font);
   font-size: 1.7rem;
   font-weight: var(--title-weight);
-  // text-transform: uppercase;
   letter-spacing: 2px;
   transition: var(--transition-color);
   margin-top: 0.2rem;
@@ -196,12 +195,12 @@ img {
   }
 
   .nav__title{
-    font-size: 1.6rem;
+    font-size: 1.7rem;
     letter-spacing: 1px;
     }
 
   .nav__link{
-    font-size: 1.35rem;
+    font-size: 1.5rem;
   }
 
   .nav__menu__list{
@@ -218,11 +217,11 @@ img {
 
   .nav__link__icon {
     margin-right: 1.8rem;
-    font-size: 2.4rem;
+    font-size: 2.6rem;
   }
 
   .home{
-    margin-inline: 0.7rem;
+    margin-inline: 0.5rem;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -235,7 +234,7 @@ img {
 
     .home__description{
       padding-bottom: 20px;
-      font-size: 1rem;
+      font-size: 1.1rem;
       margin-bottom: 4rem;
     }
 }
