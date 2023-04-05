@@ -1,7 +1,7 @@
 /*=============== VARIABLES CSS 
 ===============*/
 :root {
-  --header-height: 4.5rem;
+  --header-height: 4.9rem;
   line-height: 1.5;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -44,7 +44,7 @@ img {
 }
 
 .container {
-  max-width: 780px;
+  max-width: 860px;
   padding-inline: 1.5rem;
   margin: 0 auto;
 }
@@ -92,11 +92,12 @@ img {
 
 .nav__title{
   font-style: var(--text-font);
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   font-weight: var(--title-weight);
   // text-transform: uppercase;
   letter-spacing: 2px;
   transition: var(--transition-color);
+  margin-top: 0.2rem;
   &:hover{
     color:var(--hover-color);
   }
@@ -110,19 +111,19 @@ img {
 }
 
 .nav__item__icon{
-  margin-right: -1.3rem;
-  margin-top: 0.2rem;
+  margin-right: -1rem;
+  margin-top: 0.5rem;
 }
 
 .nav__item{
-  margin-top: 0.7rem;
+  margin-top: 1.2rem;
 }
 
 .nav__link,
 .nav__link__icon{
   color: var(--nav-color);
   font-weight: var(--title-weight);
-  font-size: 1.13rem;
+  font-size: 1.35rem;
   letter-spacing: 1px;
   transition: var(--transition-color);
   cursor: pointer;
@@ -132,7 +133,7 @@ img {
 }
 
 .nav__link__icon{
-  font-size: 1.8rem;
+  font-size: 2.1rem;
 }
 
 
@@ -145,27 +146,27 @@ img {
 
 .photo{
   float: left;
-  padding: 25px 35px 8px 0;
+  padding: 25px 40px 10px 0;
 }
 
 .home__img{
   border-radius: 50%;;
-  width: 250px;
+  width: 280px;
 }
 
 .home__description{
   color: var(--text-color);
   text-align: left;
-  padding-top: 30px;
+  padding-top: 40px;
   padding-bottom: 10px;
-  font-size: 14px;
+  font-size: 16px;
   letter-spacing: 0.25px;
   font-weight: var(--text-weight);
   border-bottom: 0.1px solid lightgray;
 }
 
 .home__para{
-  margin-bottom: 8px;
+  margin-bottom: 10px;
 }
 
 .para__link{
@@ -195,12 +196,12 @@ img {
   }
 
   .nav__title{
-    font-size: 1.55rem;
+    font-size: 1.6rem;
     letter-spacing: 1px;
     }
 
   .nav__link{
-    font-size: 1.3rem;
+    font-size: 1.35rem;
   }
 
   .nav__menu__list{
@@ -216,8 +217,8 @@ img {
   }
 
   .nav__link__icon {
-    margin-right: 1.5rem;
-    font-size: 2rem;
+    margin-right: 1.8rem;
+    font-size: 2.4rem;
   }
 
   .home{
