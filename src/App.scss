@@ -199,6 +199,9 @@ img {
     letter-spacing: 1px;
     }
 
+  .nav__list {
+      row-gap: 1rem;
+  }
   .nav__link{
     font-size: 1.5rem;
   }
@@ -208,7 +211,7 @@ img {
     top:0;
     left: 0;
     width: 100%;
-    padding-block: 3rem 1rem;
+    padding-block: 2rem 1rem;
     box-shadow: 0 8px 20px lightgray;
     transition: top .4s;
     cursor: pointer;
@@ -236,6 +239,8 @@ img {
       padding-bottom: 20px;
       font-size: 1.1rem;
       margin-bottom: 4rem;
+      padding-top: 25px;
+
     }
 }
 
